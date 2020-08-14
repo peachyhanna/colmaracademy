@@ -1,0 +1,40 @@
+body {
+  background-color: #999;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+nav {
+  height: 64px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding-left: 16px;
+}
+
+nav img {
+  height: 40px;
+}
+
+#banner-container {
+  background-color: #ccdeca;
+}
+
+.banner img {
+  width: 55%;
+  padding: 32px 24px;
+}
