@@ -152,6 +152,7 @@ nav li {
 button:hover {
   background-color: #FFF;
   color: #678273;
+  font-style: italic;
 }
 
 /* Information Section */
@@ -184,7 +185,7 @@ button:hover {
 .content-image-box {
   display: flex;
   border-bottom: 1px solid #e8e8e8;
-  padding: 18px 0px 18px 18px;
+  padding: 18px 18px 18px 18px;
 }
 
 img.media-container {
@@ -201,7 +202,7 @@ img.media-container {
   justify-content: center;
 }
 
-.text-container h4, .text-container p{
+.text-container h4, .text-container p {
   margin: 0 0 8px 0;
 }
 
@@ -218,7 +219,7 @@ img.media-container {
 /* Courses section */
 
 .start-learning {
-  background-color: #678273;
+  background-color: #677567;
   width: 100%;
   padding: 50px 0;
 }
@@ -277,6 +278,8 @@ img.media-container {
 
 .thesis-flex {
   display: inline-flex;
+  margin: 0;
+  width: 100%;
 }
 
 .thesis h2 {
@@ -302,12 +305,32 @@ video {
   width: 90%;
 }
 
+.thesis a {
+  margin: 8px 0 0 0;
+}
+
 #thesis {
   border: none;
 }
 
 #thesis.info-left {
   padding-bottom: 0;
+  padding-left: 0;
+  padding-left: 24px;
+}
+
+#thesis.content-image-box {
+  background-color: #f5f2f0;
+  margin: 32px 0 3px 0;
+}
+
+#thesis.info-right {
+  padding-top: 0;
+  padding-right: 24px;
+}
+
+#thesis.info-left {
+
 }
 
 /* Footer */
@@ -317,6 +340,7 @@ footer {
   font-size: 13px;
   color: #b5b5b5;
   letter-spacing: 1px;
+  height: 64px;
 }
 
 footer ul {
