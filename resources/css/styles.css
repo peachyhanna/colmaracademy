@@ -59,7 +59,7 @@ nav li {
 
 .banner {
   display: inline-flex;
-  background-color: #f79574;
+  background-color: #e8e8e8;
   width: 100%;
   align-items: center;
 }
@@ -85,14 +85,13 @@ nav li {
 
 .information {
   display: inline-flex;
-  background-color: #999;
   width: 100%;
 }
 
 .info-left  {
   width: 56%;
   padding: 32px 24px;
-  border-right: 1px solid #f7f7f7;
+  border-right: 1px solid #e8e8e8;
 }
 
 .info-left img {
@@ -104,14 +103,36 @@ nav li {
   padding-top: 17px;
 }
 
-.info-box {
-  width: 100%;
-  padding: 15px;
-  display: inline-flex;
+.content-image-box {
+  display: flex;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 16px 0px 16px 16px;
+  margin-bottom: 2px;
 }
 
-.info-box img {
-  height: auto;
+.content-image-box .media-container {
   width: 35%;
-  padding-right: 15px;
 }
+
+.text-container {
+  width: 65%;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#last-child {
+  background-color: #e8e8e8;
+  border: none;
+}
+
+#second-child {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: none;
+}
+
+/* #text-box1 {
+  width: 65%;
+  display: inline-block;
+} */
