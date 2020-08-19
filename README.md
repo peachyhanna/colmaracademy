@@ -1,2 +1,0 @@
-# colmaracademy
-Codecademy capstone project
