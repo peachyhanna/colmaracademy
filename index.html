@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="resources/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito&family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
   <body>
 
-    <nav>
+    <nav class="desktop">
       <img src="resources/images/ic-logo.svg" alt="Colmar Logo">
       <h5><b>COLMAR</b><em>ACADEMY</em> </h5>
       <ul>
@@ -18,7 +20,14 @@
         <li><a href="#"><b>Sign in</b></a></li>
       </ul>
     </nav>
-    
+
+    <nav class="mobile">
+      <img src="resources/images/ic-logo.svg" alt="">
+      <img src="resources/images/ic-on-campus.svg" alt="">
+      <img src="resources/images/ic-online.svg" alt="">
+      <img src="resources/images/ic-login.svg" alt="">
+    </nav>
+
     <!-- Banner -->
 
     <div class="banner">
@@ -33,7 +42,7 @@
     <!-- Information -->
 
     <div class="information">
-      <div class="info-left">
+      <div class="info-left" id="mobile">
         <img src="resources/images/information-main.jpg" alt="">
         <h2>It doesn't hurt to keep practicing</h2>
         <p>"A wonderful serenity has taken possession of my entire soul, like
@@ -42,10 +51,10 @@
           created for the bliss of souls like mine. I am so happy, my dear
           friend, so absorbed in the exquisite sense of mere tranquil existence,
           that I neglect my talents."</p>
-          <p><em>Emanuel, Senior Hiring Strategist at Hiring.com</em></p>
+          <p class="grey"><em>Emanuel, Senior Hiring Strategist at Hiring.com</em></p>
       </div>
-      <div class="info-right">
 
+      <div class="info-right" id="mobile">
         <div class="content-image-box">
             <img class="media-container" src="resources/images/information-orientation.jpg" alt="">
             <div class="text-container">
@@ -80,12 +89,12 @@
     <div class="start-learning">
       <h1 class="white">Start learning!</h1>
 
-      <div class="course-row">
+      <div class="course-row" id="mobile">
         <div class="course-box">
           <img src="resources/images/course-software.jpg" alt="">
           <div class="row-text">
             <h4>Software engineering</h4>
-            <p><em>COURSES</em></p>
+            <p class="light"><em>COURSES</em></p>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
         </div>
@@ -94,7 +103,7 @@
           <img src="resources/images/course-computer-art.jpg" alt="">
           <div class="row-text">
           <h4>Computer art</h4>
-          <p><em>COURSES</em></p>
+          <p class="light"><em>COURSES</em></p>
           <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects,
           Computer Animation</p>
         </div>
@@ -104,18 +113,18 @@
           <img src="resources/images/course-design.jpg" alt="">
             <div class="row-text">
               <h4>Design</h4>
-              <p><em>COURSES</em></p>
+              <p class="light"><em>COURSES</em></p>
               <p>User Experience Design, User research, Visual Design</p>
             </div>
         </div>
       </div>
 
-      <div class="course-row" id="row2">
+      <div class="course-row" id="mobile" id="row2">
         <div class="course-box">
           <img src="resources/images/course-data.jpg" alt="">
             <div class="row-text">
               <h4>Data</h4>
-              <p><em>COURSES</em></p>
+              <p class="light"><em>COURSES</em></p>
               <p>Data Science, Big Data, SQL, Data Visualisation</p>
             </div>
         </div>
@@ -124,7 +133,7 @@
           <img src="resources/images/course-business.jpg" alt="">
             <div class="row-text">
               <h4>Business</h4>
-              <p><em>COURSES</em></p>
+              <p class="light"><em>COURSES</em></p>
               <p>Product Development, Business Development, Startup</p>
             </div>
         </div>
@@ -133,11 +142,22 @@
           <img src="resources/images/course-marketing.jpg" alt="">
             <div class="row-text">
               <h4>Marketing</h4>
-              <p><em>COURSES</em></p>
+              <p class="light"><em>COURSES</em></p>
               <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
         </div>
       </div>
+
+      <!-- Mobile version -->
+      <div class="courses-mobile">
+        <h4>Software engineering</h4>
+        <h4>Computer art</h4>
+        <h4>Design</h4>
+        <h4>Data</h4>
+        <h4>Business</h4>
+        <h4>Marketing</h4>
+      </div>
+
     </div>
 
     <!-- Thesis -->
@@ -157,7 +177,7 @@
             these sweet mornings of spring which I enjoy with my whole heart. I am
             alone, and feel the charm of existence in this spot, which was created
             for the bliss of souls like mine. I am so happy, my dear friend, so absorbed
-            in the exquisite sense of mere tranquil existence, that I neglect my talents.""</p>
+            in the exquisite sense of mere tranquil existence, that I neglect my talents."</p>
         </div>
       </div>
 
@@ -179,8 +199,17 @@
             </div>
         </div>
       </div>
-
       </div>
+
+      <!-- Video mobile -->
+
+      <div class="video-mobile">
+        <video controls class="mobile">
+          <source src="/Users/hannamartinsson/Desktop/Codecademy/Colmar/resources/videos/thesis.mp4" type="video/mp4">
+        </video>
+      </div>
+
+
     </div>
 
     <hr>
